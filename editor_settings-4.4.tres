@@ -31,6 +31,8 @@ alt_pressed = true
 physical_keycode = 4194336
 
 [resource]
+interface/editor/main_font_size = 12
+interface/editor/code_font_size = 12
 interface/theme/preset = "Custom"
 interface/theme/accent_color = Color(0.522348, 0.694207, 0.999999, 1)
 interface/theme/contrast = 0.3
@@ -60,6 +62,16 @@ _project_settings_advanced_mode = true
 _export_template_download_directory = "C:/Users/dmytr/AppData/Local/Godot"
 _script_setup_templates_dictionary = {}
 _script_setup_use_script_templates = false
+terrain3d/config/alt_key_bind = 0
+terrain3d/dock/slot = 8
+terrain3d/dock/tile_size = 194.0
+terrain3d/dock/floating = false
+terrain3d/dock/always_on_top = true
+terrain3d/tool_settings/size = 200.1
+terrain3d/tool_settings/enable_texture = true
+terrain3d/tool_settings/dynamic_angle = true
+terrain3d/tool_settings/angle = 0.0
+terrain3d/tool_settings/scale = 0.0
 shortcuts = [{
 "name": "spatial_editor/viewport_zoom_modifier_1",
 "shortcuts": [SubResource("InputEventKey_wpalv")]
