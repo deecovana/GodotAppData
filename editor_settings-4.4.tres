@@ -31,8 +31,6 @@ alt_pressed = true
 physical_keycode = 4194336
 
 [resource]
-interface/editor/main_font_size = 12
-interface/editor/code_font_size = 12
 interface/theme/preset = "Custom"
 interface/theme/accent_color = Color(0.522348, 0.694207, 0.999999, 1)
 interface/theme/contrast = 0.3
