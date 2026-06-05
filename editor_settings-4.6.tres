@@ -1,8 +1,5 @@
 [gd_resource type="EditorSettings" format=3]
 
-[sub_resource type="InputEventKey" id="InputEventKey_8qrun"]
-keycode = 4194326
-
 [sub_resource type="InputEventKey" id="InputEventKey_2lmss"]
 device = -1
 alt_pressed = true
@@ -46,9 +43,6 @@ physical_keycode = 4194336
 
 [resource]
 interface/editor/display_scale = 2
-interface/editor/main_font = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Regular.ttf"
-interface/editor/main_font_bold = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Bold.ttf"
-interface/editor/code_font = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Regular.ttf"
 interface/theme/base_color = Color(0.161, 0.161, 0.161, 1)
 interface/theme/accent_color = Color(0.337, 0.62, 1, 1)
 interface/theme/contrast = 0.3
@@ -110,12 +104,6 @@ _export_preset_advanced_mode = false
 export/android/scrcpy/screen_size = "1920x1080/120"
 export/macos/actool = ""
 shortcuts = [{
-"name": "spatial_editor/viewport_zoom_modifier_1",
-"shortcuts": [SubResource("InputEventKey_8qrun")]
-}, {
-"name": "spatial_editor/viewport_zoom_modifier_2",
-"shortcuts": []
-}, {
 "name": "bottom_panels/toggle_output_bottom_panel",
 "shortcuts": [SubResource("InputEventKey_2lmss"), SubResource("InputEventKey_dc1ag")]
 }, {
